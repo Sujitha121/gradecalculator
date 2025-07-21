@@ -20,3 +20,7 @@ int main() {
 
     cout << "Enter number of subjects (max 10): ";
     cin >> numSubjects;
+    if (numSubjects > 10 || numSubjects <= 0) {
+        cout << "Invalid number of subjects!" << endl;
+        return 1;
+    }
