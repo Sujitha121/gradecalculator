@@ -24,3 +24,6 @@ int main() {
         cout << "Invalid number of subjects!" << endl;
         return 1;
     }
+    for (int i = 0; i < numSubjects; i++) {
+        cout << "Enter marks for subject " << i + 1 << ": ";
+        cin >> marks[i];
