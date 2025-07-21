@@ -31,3 +31,8 @@ int main() {
     }
 
     average = total / numSubjects;
+    char grade = calculateGrade(average);
+
+    cout << "\n----- Report -----" << endl;
+    cout << "Student: " << studentName << endl;
+    cout << "Total Marks: " << total << endl;
