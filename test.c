@@ -27,3 +27,7 @@ int main() {
     for (int i = 0; i < numSubjects; i++) {
         cout << "Enter marks for subject " << i + 1 << ": ";
         cin >> marks[i];
+	total += marks[i];
+    }
+
+    average = total / numSubjects;
