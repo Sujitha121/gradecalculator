@@ -13,3 +13,10 @@ char calculateGrade(float average) {
 int main() {
     string studentName;
     int numSubjects;
+    float marks[10], total = 0, average;
+
+    cout << "Enter student name: ";
+    getline(cin, studentName);
+
+    cout << "Enter number of subjects (max 10): ";
+    cin >> numSubjects;
